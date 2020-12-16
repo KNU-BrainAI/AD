@@ -3,5 +3,5 @@ Study for Alzheimer's Disease
 
 
 # Requirments
-- EEGLAB toolbox
-
+- EEGLAB toolbox (https://sccn.ucsd.edu/eeglab/index.php)
+- 
