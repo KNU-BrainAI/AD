@@ -3,5 +3,5 @@ Study for Alzheimer's Disease
 
 
 # Requirments
-## EEGLAB
+- EEGLAB toolbox
 
