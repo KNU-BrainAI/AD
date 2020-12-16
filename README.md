@@ -9,3 +9,5 @@ Study for Alzheimer's Disease
   ICLabel 1.2.6 (https://sccn.ucsd.edu/wiki/ICLabel)
 
 Download the above plug-ins and move them to the eeglab folder (eeglab2019_1/plugins)
+
+ALL eeglab plug-in list (https://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php)
