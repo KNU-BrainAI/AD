@@ -40,7 +40,7 @@ desiredFs=500;
 nSess = 1; % session number
 
 
-for iSub = 1
+for iSub = 1:nSub
     
     eeglab
     
@@ -58,8 +58,12 @@ for iSub = 1
     for i = 1 : length(eeg(nSess).oddball.event)
         EEG.event(i).type = markers{eeg(nSess).oddball.event(i).mark};
         EEG.event(i).latency = eeg(nSess).oddball.event(i).onset;
-        EEG.event(i).response = eeg(nSess).oddball.event(i).response;
-        EEG.event(i).response_time = eeg(nSess).oddball.event(i).response_time;
+        
+        if(length(fieldnames(eeg(nSess).oddball.event)) > 2) % if data contains response info
+            EEG.event(i).response = eeg(nSess).oddball.event(i).response;
+            EEG.event(i).response_time = eeg(nSess).oddball.event(i).response_time;    
+        end
+        
     end
     EEG = eeg_checkset(EEG, 'eventconsistency'); % Check all events for consistency
     
