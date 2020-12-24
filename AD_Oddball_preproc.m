@@ -40,7 +40,7 @@ desiredFs=500;
 nSess = 1; % session number
 
 
-for iSub = 1:nSub
+for iSub = 1 : nSub
     
     eeglab
     
