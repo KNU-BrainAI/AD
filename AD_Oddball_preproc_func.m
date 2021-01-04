@@ -3,8 +3,8 @@ function [ outEEG ] = AD_Oddball_preproc_func( inEEG , desiredFs, lowCut, highCu
 %
 % function outEEG = MdDS_AEP_preproc_func( inEEG , desiredFs, lowCut, highCut)
 %
-%  1. downsampling based on desiredFs
-%  2. band-pass filtering based on lowPass & highPass
+%  1. band-pass filtering based on lowPass & highPass
+%  2. resampling based on desiredFs
 %  3. artifact subspace reconstruction (ASR)
 %  4. channel interpolation
 %  5. re-referencing
