@@ -1,5 +1,4 @@
-# AD
-Study for Alzheimer's Disease
+# Pre-processing
 
 ### Requirments
 - EEGLAB toolbox 2019.1 (https://sccn.ucsd.edu/eeglab/index.php)
