@@ -1,4 +1,4 @@
-## Diagnose preclinical Alzheimer's disease with CNN-based models using resting-state EEG
+# PreAlzEEGNet
 
 ### Prerequisites
 
