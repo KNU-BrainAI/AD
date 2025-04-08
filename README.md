@@ -1,6 +1,7 @@
 # AlzEEGNet
 
 [**Paper**](https://www.sciencedirect.com/science/article/pii/S0957417422015913)
+Individualized diagnosis of preclinical Alzheimer’s Disease using deep neural networks
 
 ## Introduction
 This repository contains the official implementation of AlzEEGNet.
