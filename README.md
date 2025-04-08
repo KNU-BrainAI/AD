@@ -1,4 +1,6 @@
-# PreAlzEEGNet
+# AlzEEGNet
+
+[**Paper**]([./assets/DAFT-GAN.pdf](https://www.sciencedirect.com/science/article/pii/S0957417422015913))
 
 ### Prerequisites
 
